@@ -244,6 +244,31 @@ Just change the **70**, **50** and **30** values to alter the colour ranges.
 i.e.
 Change values to **75**, **50** and **25** to split the bar into quarters.
 
+#### Customise Column Name
+
+If you would rather have a different name for your custom field and therefore column name then you will need to alter the following line in the `mantis/core/custom_field_api.php` file.
+```php
+if ($name == "Percentage") {
+  ```
+Simply change the word **Percentage** to whatever you want to call your custom field in the above setup step 3
+i.e. **Progress**, **Completed** or **My Custom Field**
+
+#### Multiple Percentage Bars
+
+If you would like to implement more than one progress bar for each issue then you will have to create another custom field exactly like you did above.
+
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/completed_percentage_columns.png" width="300" alt="multiple progress bars">
+
+Then edit the following line in the `mantis/core/custom_field_api.php` file.
+```php
+if ($name == "Percentage") {
+```
+
+Change it to something like the following:-
+```php
+if ($name == "Percentage" || $name == "Completed") {
+```
+
 ## ToDo
 
  - Create more themes
