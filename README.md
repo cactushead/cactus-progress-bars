@@ -28,7 +28,7 @@ However, you can see below that their text is centred on the active percentage n
 
 Other problems are that if the active percentage section (the coloured bar) is too small for the text, it will be either clipped off - or it will be in a colour that you cannot read.
 <img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/bootstrap_progress_bar.png" alt="bootstrap progress bar">
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/bootstrap_progress_bars.png" alt="bootstrap progress bar clipped">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/bootstrap_progress_bar_clipped.png" alt="bootstrap progress bar clipped">
 
 This centrally aligned text in the active percentage section does however make sense for multiple percentages in a single bar which are not needed in the MantisBT backend.
 
