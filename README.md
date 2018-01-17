@@ -168,7 +168,8 @@ Save and upload to replace the existing `mantis/roadmap_page.php` file
 [Download](https://github.com/cactushead/cactus-light-theme/archive/master.zip)
 
 * If you want to use the progress bars in another theme then you can copy the following CSS and include it at the bottom of your `default.css` file:-
-```CSS /* Progress Bar Styles
+```CSS
+/* Progress Bar Styles
    will only apply if changes made to MantisBT files */
 .ddiv {
 	position: absolute;
@@ -229,7 +230,8 @@ Simply alter the hex values of the 5 lines named `progrezzcolor0` to `progrezzco
 #### Customise Ranges
 
 In the new `mantis/roadmap_page.php` file, alter the values in the case statement:-
-```php case ($t_progress > 70): $progrezzcolor = "progrezzcolor4"; break;
+```php
+case ($t_progress > 70): $progrezzcolor = "progrezzcolor4"; break;
 case ($t_progress > 50): $progrezzcolor = "progrezzcolor3"; break;
 case ($t_progress > 30): $progrezzcolor = "progrezzcolor2"; break;
 case ($t_progress <= 30 && $t_progress > 0): $progrezzcolor = "progrezzcolor1"; break;
