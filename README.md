@@ -11,7 +11,7 @@ Tested with Mantis 2.9
 
 ## In Action
 
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/cactus_progress_bars.png" alt="cactus progress bars">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/cactus_progress_bars.png" width="170" alt="cactus progress bars">
 
 * This requires alterations to a couple of MantisBT files.
 1. `mantis/core/custom_field_api.php`
