@@ -25,7 +25,7 @@ Tested with Mantis 2.9
 Bootstrap progress bars look great and you can easily change their color and other styling attributes.
 However, you can see below that their text is centred on the active percentage not across the whole bar.  This means that they all start at different horizontal positions which looks a bit odd.
 
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/bootstrap_progress_bars.png" alt="bootstrap progress bars">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/bootstrap_progress_bars.png" width="500 alt="bootstrap progress bars">
 
 Other problems are that if the active percentage section (the coloured bar) is too small for the text, it will be either clipped off - or it will be in a colour that you cannot read.
 
@@ -41,7 +41,7 @@ Additionally, if you look carefully below you can see that the text will automat
 
 And if your text spans both the coloured percentage section as well as the lighter background - it will change the text colour for each colour (i.e. when you are close to 50%).
 
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/cactus_progress_bars.png" alt="cactus progress bars">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/cactus_progress_bars.png" width="170 alt="cactus progress bars">
 
 ## Setup
 
@@ -49,7 +49,7 @@ And if your text spans both the coloured percentage section as well as the light
 2. Select the **Install** tab
 3. Type in the name **Percentage** (note the capital P) and press the **New Custom Field** button
 4. Now edit the field details so that it has the following entries:-
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/edit_custom_fields.png" width="400" alt="edit custom fields">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/edit_custom_fields.png" width="500" alt="edit custom fields">
 5. Just underneath this section - make sure to link the custom field to your desired project(s)
 6. Go to the **Manage** section, then select **Manage Configuration** tab and then the **Manage Columns** Sub-tab
 7. In your **All Available Columns** section you should now see the `, custom_Percentage` at the end of the list.
