@@ -257,7 +257,7 @@ i.e. **Progress**, **Completed** or **My Custom Field**
 
 If you would like to implement more than one progress bar for each issue then you will have to create another custom field exactly like you did above.
 
-<img src="https://github.com/cactushead/cactus-progress-bars/raw/master/screenshots/completed_percentage_columns.png" width="300" alt="multiple progress bars">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/completed_percentage_columns.png" width="300" alt="multiple progress bars">
 
 Then edit the following line in the `mantis/core/custom_field_api.php` file.
 ```php
