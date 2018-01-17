@@ -11,7 +11,10 @@ Tested with Mantis 2.9
 
 ## In Action
 
+### Viewing Issues Page
 <img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/issues.png" width="600" alt="cactus progress bars">
+
+### Roadmap Page
 <img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/roadmap.png" width="600" alt="cactus progress bars">
 
 * This requires alterations to a couple of MantisBT files.
