@@ -77,7 +77,8 @@ A work around for the custom percentage not being properly sorted was required a
 ### custom_field_api.php
 Open the file `mantis/core/custom_field_api.php` and scroll down to about line **1505**.
 look for the following line of code:-
-```php echo string_display_line_links( string_custom_field_value( $p_def, $p_field_id, $p_bug_id ) );
+```php
+echo string_display_line_links( string_custom_field_value( $p_def, $p_field_id, $p_bug_id ) );
 ```
 Replace this line of code with the following code:-
 ```php // cactushead percentage progress bars
@@ -117,12 +118,13 @@ Save and upload to replace the existing `mantis/core/custom_field_api.php` file
 ### roadmap_page.php
 Secondly, open the file `mantis/roadmap_page.php` and scroll down to about line **360**.
 look for the following lines of code:-
-```php echo '<div class="space-4"></div>';
-			echo '<div class="col-md-7 col-xs-12 no-padding">';
-			echo '<div class="progress progress-striped" data-percent="' . $t_progress . '%" >';
-			echo '<div style="width:' . $t_progress . '%;" class="progress-bar progress-bar-success"></div>';
-			echo '</div></div>';
-			echo '<div class="clearfix"></div>';
+```php
+echo '<div class="space-4"></div>';
+echo '<div class="col-md-7 col-xs-12 no-padding">';
+echo '<div class="progress progress-striped" data-percent="' . $t_progress . '%" >';
+echo '<div style="width:' . $t_progress . '%;" class="progress-bar progress-bar-success"></div>';
+echo '</div></div>';
+echo '<div class="clearfix"></div>';
 ```
 
 Replace these lines of code with the following code:-
