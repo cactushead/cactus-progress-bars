@@ -36,7 +36,9 @@ This centrally aligned text in the active percentage section does however make s
 
 ### Cactus-Progress-Bars
 My version of the progress bars will show a complementary colour of text centred on each progress bar.
+
 Additionally, if you look carefully below you can see that the text will automatically be displayed in either a light or dark colour depending on what the background colour is.
+
 And if your text spans both the coloured percentage section as well as the lighter background - it will change the text colour for each colour (i.e. when you are close to 50%).
 
 <img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/cactus_progress_bars.png" alt="cactus progress bars">
@@ -55,6 +57,7 @@ And if your text spans both the coloured percentage section as well as the light
 9. Click on the **Update Columns as Global Default for All Projects** button
 
 You should now see the sortable Percentage column with progress bars on the **View Issues** page.
+
 Additionally, if you click on the **Roadmap** page, the progress bars there are also changed to these new ones (you may or may not see them depending on your particular setup and the progress of your project).
 
 ### Sorting
