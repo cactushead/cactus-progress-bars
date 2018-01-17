@@ -48,8 +48,7 @@ And if your text spans both the coloured percentage section as well as the light
 1. Go to the **Manage** section of your Mantis admin area
 2. Select the **Install** tab
 3. Type in the name **Percentage** (note the capital P) and press the **New Custom Field** button
-4. Now edit the field details so that it has the following entries:-
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/edit_custom_fields.png" width="500" alt="edit custom fields">
+4. Now edit the field details so that it has the following entries:- <img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/edit_custom_fields.png" width="500" alt="edit custom fields">
 5. Just underneath this section - make sure to link the custom field to your desired project(s)
 6. Go to the **Manage** section, then select **Manage Configuration** tab and then the **Manage Columns** Sub-tab
 7. In your **All Available Columns** section you should now see the `, custom_Percentage` at the end of the list.
