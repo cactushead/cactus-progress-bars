@@ -225,13 +225,13 @@ Save and upload to replace the existing `mantis/roadmap_page.php` file
 .progrezzcolor4 { background-color: #CA5952; } /*red progress bar*/
 ```
 
-### &lt;Customising&gt;
+## &lt;Customising&gt;
 
-#### Customise Colours
+### Customise Colours
 
 Simply alter the hex values of the 5 lines named `progrezzcolor0` to `progrezzcolor4`at the bottom of the CSS.
 
-#### Customise Ranges
+### Customise Ranges
 
 In the new `mantis/roadmap_page.php` file, alter the values in the case statement:-
 ```php
@@ -244,7 +244,7 @@ Just change the **70**, **50** and **30** values to alter the colour ranges.
 i.e.
 Change values to **75**, **50** and **25** to split the bar into quarters.
 
-#### Customise Column Name
+### Customise Column Name
 
 If you would rather have a different name for your custom field and therefore column name then you will need to alter the following line in the `mantis/core/custom_field_api.php` file.
 ```php
@@ -253,10 +253,10 @@ if ($name == "Percentage") {
 Simply change the word **Percentage** to whatever you want to call your custom field in the above setup step 3
 i.e. **Progress**, **Completed** or **My Custom Field**
 
-#### Multiple Percentage Bars
+### Multiple Percentage Bars
 
 If you would like to implement more than one progress bar for each issue then you will have to create another custom field exactly like you did above.
-    
+
 <img src="https://github.com/cactushead/cactus-progress-bars/raw/master/screenshots/completed_percentage_columns.png" width="300" alt="multiple progress bars">
 
 Then edit the following line in the `mantis/core/custom_field_api.php` file.
