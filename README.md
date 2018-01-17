@@ -25,7 +25,7 @@ Tested with Mantis 2.9
 Bootstrap progress bars look great and you can easily change their color and other styling attributes.
 However, you can see below that their text is centred on the active percentage not across the whole bar.  This means that they all start at different horizontal positions which looks a bit odd.
 
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/bootstrap_progress_bars.png" width="500 alt="bootstrap progress bars">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/bootstrap_progress_bars.png" width="500" alt="bootstrap progress bars">
 
 Other problems are that if the active percentage section (the coloured bar) is too small for the text, it will be either clipped off - or it will be in a colour that you cannot read.
 
@@ -41,7 +41,7 @@ Additionally, if you look carefully below you can see that the text will automat
 
 And if your text spans both the coloured percentage section as well as the lighter background - it will change the text colour for each colour (i.e. when you are close to 50%).
 
-<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/cactus_progress_bars.png" width="170 alt="cactus progress bars">
+<img src="https://github.com/cactushead/cactus-progress-bars/blob/master/screenshots/cactus_progress_bars.png" width="170" alt="cactus progress bars">
 
 ## Setup
 
