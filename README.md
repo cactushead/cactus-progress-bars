@@ -81,7 +81,8 @@ look for the following line of code:-
 echo string_display_line_links( string_custom_field_value( $p_def, $p_field_id, $p_bug_id ) );
 ```
 Replace this line of code with the following code:-
-```php // cactushead percentage progress bars
+```php
+// cactushead percentage progress bars
 $name = $p_def['name'];
 $test = custom_field_get_value( $p_field_id, $p_bug_id );
 
@@ -128,7 +129,8 @@ echo '<div class="clearfix"></div>';
 ```
 
 Replace these lines of code with the following code:-
-```php // cactushead percentage progress bars
+```php
+// cactushead percentage progress bars
 // change color of bar depending on percentage
 switch(true) {
   case ($t_progress > 70): $progrezzcolor = "progrezzcolor4"; break;
