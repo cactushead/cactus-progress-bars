@@ -1,6 +1,6 @@
 # cactus-progress-bars
 Adds new colour altering progress bars to [MantisBT](http://www.mantisbt.org/), the free web-based bugtracking system.
-Requires compatible theme like [cactus light](https://github.com/cactushead/cactus-light-theme) or [cactus light](https://github.com/cactushead/cactus-dark-theme) for custom CSS*
+Requires compatible theme like [cactus light](https://github.com/cactushead/cactus-light-theme) or [cactus dark](https://github.com/cactushead/cactus-dark-theme) for custom CSS*
 
 * 2018 by Cactushead
 
