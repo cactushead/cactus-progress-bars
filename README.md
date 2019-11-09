@@ -161,7 +161,7 @@ Save and upload to replace the existing `mantis/roadmap_page.php` file
 
 ## Compatible Themes
 
-### Cactus-Light-Theme
+### Cactus-Light-Theme and Cactus-Dark-Theme
 - Creates a flat clean and vibrant theme
 - Alters side menu
 - Adds theme info to footer
@@ -170,6 +170,10 @@ Save and upload to replace the existing `mantis/roadmap_page.php` file
 <img src="https://github.com/cactushead/cactus-light-theme/raw/master/cactus%20light.png" height="200" alt="cactus light theme for MantisBT">
 
 [Download](https://github.com/cactushead/cactus-light-theme/archive/master.zip)
+
+<img src="https://github.com/cactushead/cactus-dark-theme/raw/master/cactus%20dark.png" height="200" alt="cactus dark theme for MantisBT">
+
+[Download](https://github.com/cactushead/cactus-dark-theme/archive/master.zip)
 
 * If you want to use the progress bars in another theme then you can copy the following CSS and include it at the bottom of your `default.css` file:-
 ```CSS
